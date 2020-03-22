@@ -7,7 +7,7 @@ import 'package:dio/dio.dart';
 class HomeRepository extends Disposable {
   Future<List<UsuarioModel>> getUsuarios(Dio client) async {
     final response = await client.get(
-        'https://raw.githubusercontent.com/Bwolfs2/data/master/desafio_08_02_2020');
+        'https://raw.githubusercontent.com/thiagomarcelop/mock-data/master/flutter-desafio-ranking');
     return UsuarioModel.fromJsonList(json.decode(response.data) as List);
   }
 

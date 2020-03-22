@@ -7,7 +7,7 @@ class HomeModule extends ChildModule {
   @override
   List<Bind> get binds => [
         Bind((i) => HomeRepository()),
-        Bind((i) => HomeController()),
+        Bind((i) => HomeController(i.get<HomeRepository>())),
       ];
 
   @override
