@@ -77,7 +77,7 @@ class _HomePageState extends ModularState<HomePage, HomeController> {
               }
               return Container(
                 margin: EdgeInsets.symmetric(vertical: 5),
-                padding: EdgeInsets.symmetric(horizontal: 30),
+                padding: EdgeInsets.symmetric(horizontal: 20),
                 width: MediaQuery.of(context).size.width,
                 child: Row(
                   children: <Widget>[
