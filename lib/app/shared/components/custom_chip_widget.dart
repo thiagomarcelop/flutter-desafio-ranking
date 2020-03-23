@@ -5,7 +5,8 @@ class CustomChipWidget extends StatelessWidget {
   final bool selected;
   final Function() onSelected;
 
-  const CustomChipWidget({Key key, this.label, this.selected, this.onSelected}) : super(key: key);
+  const CustomChipWidget({Key key, this.label, this.selected, this.onSelected})
+      : super(key: key);
 
   @override
   Widget build(BuildContext context) {
