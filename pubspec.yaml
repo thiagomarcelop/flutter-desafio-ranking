@@ -1,7 +1,7 @@
 name: flutter_desafio_ranking
-description: A new Flutter project.
+description: Projeto criado a partir do Projeto Ranking do Desafio 09-02-2020 do @Bwolfs2 da Flutterando.
 
-version: 1.0.0+1
+version: 1.0.0
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
