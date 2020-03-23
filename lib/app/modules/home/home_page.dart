@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_desafio_ranking/app/shared/custom_chip/custom_chip_widget.dart';
-import 'package:flutter_desafio_ranking/app/shared/triade_ranking/triade_ranking.dart';
+import 'package:flutter_desafio_ranking/app/shared/components/custom_chip_widget.dart';
+import 'package:flutter_desafio_ranking/app/shared/components/triade_ranking_widget.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 import 'home_controller.dart';
@@ -66,7 +66,7 @@ class _HomePageState extends ModularState<HomePage, HomeController> {
             itemCount: size,
             itemBuilder: (BuildContext context, int index) {
               if (index == 0) {
-                return TriadeRanking(
+                return TriadeRankingWidget(
                     first: controller.listaUsuariso[0],
                     second: controller.listaUsuariso[1],
                     third: controller.listaUsuariso[2]);

@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_desafio_ranking/app/modules/models/usuario_model.dart';
 
-class CustomCircleAvatar extends StatelessWidget {
+class CustomCircleAvatarWidget extends StatelessWidget {
   final double size;
   final String image;
   final UsuarioModel usuario;
   final bool noGlow;
 
-  const CustomCircleAvatar(
+  const CustomCircleAvatarWidget(
       {Key key, this.size, this.image, this.usuario, this.noGlow = true})
       : super(key: key);
 
